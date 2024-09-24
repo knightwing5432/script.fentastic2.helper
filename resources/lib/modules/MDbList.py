@@ -9,12 +9,12 @@ import re
 # logger = xbmc.log
 
 settings_path = xbmcvfs.translatePath(
-    "special://profile/addon_data/script.nimbus.helper/"
+    "special://profile/addon_data/script.fentastic2.helper/"
 )
 ratings_database_path = xbmcvfs.translatePath(
-    "special://profile/addon_data/script.nimbus.helper/ratings_cache.db"
+    "special://profile/addon_data/script.fentastic2.helper/ratings_cache.db"
 )
-IMAGE_PATH = "special://home/addons/skin.nimbus/resources/rating_images/"
+IMAGE_PATH = "special://home/addons/skin.fentastic2/resources/rating_images/"
 
 
 def make_session(url="https://"):
